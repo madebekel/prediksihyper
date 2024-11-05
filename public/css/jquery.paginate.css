@@ -1,0 +1,43 @@
+.paginate-pagination ul {
+    margin: 20px 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.paginate-pagination ul:after {
+    content: ' ';
+    display: table;
+    clear: both
+}
+
+.paginate-pagination ul>li {
+    margin-right: 3px
+}
+
+.paginate-pagination ul>li>a.page {
+    display: block;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.paginate-pagination ul>li>a.page:hover {
+    opacity: .7
+}
+
+.paginate-pagination ul>li>a.page.active {
+    opacity: .7;
+    cursor: default
+}
+
+.paginate-pagination ul>li>a.page-next.deactive,.paginate-pagination ul>li>a.page-prev.deactive {
+    opacity: .7;
+    cursor: default
+}

@@ -1,0 +1,1144 @@
+@font-face {
+    font-family: ubuntu1;
+    src: url(../fonts/Ubuntu-Regular.ttf)
+}
+
+.title-main>h1,h2,h3,h4,h5,h6 {
+    font-size: 1.3rem;
+    margin-bottom: .9rem
+}
+
+:root {
+    --first-color: #c51818;
+    --second-color: #ffae00;
+    --third-color: #dbc710;
+    --fourth-color: #7c0606;
+    --fifth-color: #630000;
+    --sixth-color: #fff;
+    --seventh-color: #7c0606;
+    --eight-color: #2c1f1f
+}
+
+body {
+    background: url(../images/bg.webp);
+    background-size: cover!important;
+    background-attachment: fixed!important;
+    background-position-x: center!important;
+    background-position-y: center!important;
+    background-color: #0f0f0f;
+    font-family: ubuntu1
+}
+
+.page-link {
+    background-color: var(--fourth-color);
+    color: var(--sixth-color)!important;
+    border-color: var(--first-color)!important
+}
+
+.page-link:hover {
+    background-color: var(--third-color)
+}
+
+.page-item.active .page-link {
+    background-color: var(--third-color)!important;
+    border-color: var(--third-color)!important
+}
+
+.page-item.disabled .page-link {
+    background-color: var(--fourth-color)!important;
+    opacity: .4!important
+}
+
+.swiper-pagination-progressbar-fill {
+    background: var(--first-color)!important
+}
+
+.bg-mainslide {
+    background: var(--fifth-color)
+}
+
+.title-main>p {
+    font-size: .9rem;
+    line-height: .9rem
+}
+
+.showgames {
+    display: none
+}
+
+.bg-wa {
+    background: #11a116
+}
+
+.title-wa {
+    text-align: center;
+    font-weight: 700;
+    font-size: .9rem;
+    font-weight: 700;
+    color: #fff;
+    padding: 8px;
+    text-shadow: -1px 1px 3px #000!important;
+    text-transform: uppercase
+}
+
+.icon-providers {
+    background: var(--third-color);
+    padding: 10px;
+    border-radius: 5px
+}
+
+.icon-providers:hover {
+    cursor: pointer;
+    background: var(--fourth-color)
+}
+
+.icon-providers>img {
+    width: 70px
+}
+
+center {
+    font-size: 1.2rem
+}
+
+.table-jadwal {
+    font-size: 12px!important
+}
+
+@font-face {
+    font-family: font-dig;
+    src: url(../fonts/digits.otf)
+}
+
+.res-pasaran {
+    padding: 2px;
+    text-align: center
+}
+
+.res-pasaran h3 {
+    padding: 0;
+    margin: 0;
+    color: var(--sixth-color);
+    letter-spacing: .2rem;
+    font-size: 2.8rem;
+    font-family: font-dig;
+    background: linear-gradient(90deg,var(--sixth-color) 50%,transparent 50%),linear-gradient(90deg,var(--sixth-color) 50%,transparent 50%),linear-gradient(0deg,var(--sixth-color) 50%,transparent 50%),linear-gradient(0deg,var(--sixth-color) 50%,transparent 50%);
+    background-repeat: repeat-x,repeat-x,repeat-y,repeat-y;
+    background-size: 8px 2px,8px 2px,2px 8px,2px 8px;
+    background-position: 0 0,200px 100px,0 100px,200px 0;
+    padding: 5px;
+    animation: border-dance 15s infinite linear
+}
+
+@keyframes border-dance {
+    0% {
+        background-position: 0 0,100% 100%,0 100%,100% 0
+    }
+
+    100% {
+        background-position: 100% 0,0 100%,0 0,100% 100%
+    }
+}
+
+.res-pasaran p {
+    margin: 0;
+    font-size: .9rem;
+    padding: 0
+}
+
+.table-jadwal tbody>tr>th {
+    text-align: center!important
+}
+
+.text-btnlivedraw {
+    font-size: .9rem
+}
+
+.card-game {
+    background: var(--eight-color);
+    border-bottom: 3px solid var(--second-color);
+    padding: .8rem
+}
+
+.top-nav {
+    padding: 9px;
+    font-size: .8rem;
+    text-transform: uppercase;
+    background: var(--seventh-color);
+    color: #fff;
+    height: 53px
+}
+
+.chatbox {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 350px;
+    background: #ececec;
+    padding: 10px;
+    width: 100%
+}
+
+.btn-close {
+    background-color: #ff0019
+}
+
+.receiver,.sender {
+    font-size: .9rem;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 7px;
+    width: 250px;
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+
+.sender {
+    background: #ebb506;
+    color: #000;
+    text-align: left!important
+}
+
+.receiver {
+    background: #242424;
+    color: #fff
+}
+
+.receiver h2,.sender h2 {
+    font-size: 1rem
+}
+
+.nav-bar {
+    background: var(--fifth-color);
+    border-bottom: 1px solid var(--second-color);
+    color: #fff;
+    font-size: 1rem;
+    padding: .1rem
+}
+
+.navbar-brand {
+    margin-right: -2rem!important;
+    width: 9rem
+}
+
+.navbar {
+    padding-top: 0!important;
+    padding-bottom: 0!important
+}
+
+.nav-link {
+    font-size: .9rem;
+    color: #fff!important;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-right: .7rem
+}
+
+.bg-warning,.btn-warning,.btn-dark {
+    color: #fff!important;
+    background: var(--third-color)!important;
+    border-color: var(--seventh-color)!important;
+    background: linear-gradient(0deg,var(--fourth-color) 0%,var(--third-color) 100%)!important
+}
+
+.text-warning {
+    color: var(--second-color)!important
+}
+
+.active {
+    color: var(--second-color)!important;
+    font-weight: 700
+}
+
+.nav-link {
+    background: #13131300;
+    padding: 8px;
+    border-radius: 10px
+}
+
+.keluaran th {
+    color: #000;
+    padding: 10px 5px;
+    border-bottom: 1px solid #fff;
+    border: 1px solid #fff;
+    font-size: 15px;
+    text-shadow: 1px 1px 0 #fff;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,1) 0%,#ffffff 50%,rgba(0,0,0,1) 100%)
+}
+
+.nav-link:hover {
+    background: #fff!important;
+    color: #000!important;
+    border-radius: 0
+}
+
+a,a:hover {
+    color: inherit;
+    text-decoration: none
+}
+
+.badge-result {
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.notify {
+    left: 20%
+}
+
+.icon-apk {
+    width: 30px;
+    margin-right: .5rem
+}
+
+.top-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0
+}
+
+.wrap-pred h5 {
+    word-wrap: break-word;
+    white-space: normal
+}
+
+.top-list>li {
+    display: inline-block;
+    margin-right: .4rem
+}
+
+#loading {
+    display: none
+}
+
+.top-list>li::after {
+    content: "|";
+    margin-left: .4rem;
+    color: #868686
+}
+
+@media only screen and (max-width: 600px) {
+    .top-list>li {
+        margin-right:0;
+        text-align: left;
+        font-size: .7rem
+    }
+}
+
+.card-body {
+    color: #000!important
+}
+
+.resballs {
+    font-size: 1.4rem;
+    font-weight: 700
+}
+
+.balls {
+    font-size: 1.7rem!important
+}
+
+.ball-result {
+    font-size: 1.4rem!important
+}
+
+.resultnum {
+    font-size: 1rem
+}
+
+.span-result-xs {
+    font-weight: 700
+}
+
+.result {
+    font-size: 1.3rem;
+    font-weight: 700
+}
+
+.main {
+    background: var(--fifth-color);
+    color: #fff;
+    padding: 1rem
+}
+
+.btn-small {
+    font-size: .8rem;
+    color: var(--sixth-color);
+    padding: 4px 7px;
+    border-radius: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: linear-gradient(0deg,var(--first-color) 0%,var(--fourth-color) 100%);
+    border-color: var(--third-color)!important;
+    text-align: center
+}
+
+marquee {
+    border-bottom: 1px solid #979797;
+    padding: 2px
+}
+
+.icon-teksberjalan {
+    position: absolute;
+    background: var(--fifth-color);
+    color: var(--second-color);
+    padding: 2px;
+    padding-right: 6px;
+    padding-left: 6px;
+    top: 0;
+    left: -1px;
+    z-index: 999
+}
+
+.border-game {
+    border: 2px solid var(--third-color)
+}
+
+@media only screen and (max-width: 283px) {
+    .btn-small {
+        font-size:.6rem
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .prediksi-title {
+        font-size:.8rem!important
+    }
+
+    .btn-lihat {
+        font-size: .6rem
+    }
+
+    .top-nav {
+        height: 75px
+    }
+
+    .img-mobile {
+        width: 35px
+    }
+
+    .title-mb-prediksi h2 {
+        font-size: 1rem;
+        padding: 0;
+        margin: 0
+    }
+
+    .navbar-ms {
+        background: 0 0!important
+    }
+
+    .p-prediksi a {
+        font-size: .9rem
+    }
+}
+
+.title-mb-prediksi {
+    background: var(--eight-color);
+    padding: 8px
+}
+
+.p-prediksi {
+    padding: 4px 8px;
+    border: 1px solid var(--second-color);
+    border-radius: 5px
+}
+
+.btn-up {
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+    font-size: 1.2rem;
+    z-index: 999;
+    display: none
+}
+
+.result-pasaran {
+    width: 800px;
+    height: 900px;
+    max-width: 100%
+}
+
+.blinks {
+    animation: blinking .8s linear infinite
+}
+
+@keyframes blinking {
+    50% {
+        opacity: 0
+    }
+}
+
+.content-nav {
+    display: flex!important;
+    justify-content: center!important
+}
+
+.bbkomwrap {
+    width: 320px!important
+}
+
+.info-market {
+    position: absolute;
+    top: 5px;
+    right: 5px
+}
+
+.info-market i {
+    font-size: 1.1rem
+}
+
+.info-ttp {
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    padding: 0
+}
+
+@media only screen and (max-width: 700px) {
+    .title-img {
+        display:block;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    .res-pasaran h3 {
+        color: var(--sixth-color);
+        font-size: 3.3rem
+    }
+
+    .paito-picker {
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    .title-paito {
+        font-size: 1.1rem
+    }
+
+    .res-pasaran p {
+        font-size: 1.1rem
+    }
+
+    .bbkomwrap {
+        width: 100%!important
+    }
+
+    .title-main>p {
+        line-height: 1.2rem
+    }
+
+    .wrap-list {
+        display: flex;
+        justify-content: center;
+        text-align: center
+    }
+
+    .top-list>li {
+        margin-bottom: .3rem
+    }
+
+    .top-list>li::before {
+        content: "|";
+        margin-right: .4rem;
+        color: #868686
+    }
+
+    .nav-link {
+        padding: .5rem;
+        padding-bottom: .5rem;
+        margin-bottom: .7rem;
+        background: 0 0;
+        border-bottom: 1px solid #fff
+    }
+}
+
+.percent {
+    height: 20px;
+    display: flex;
+    overflow: hidden;
+    line-height: 0;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    position: relative;
+    z-index: 1;
+    border-radius: 18px;
+    width: 90%;
+    margin: 0 auto
+}
+
+.percent p {
+    z-index: 15;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 700;
+    transform: translateY(10px);
+    color: #000
+}
+
+strong {
+    color: var(--third-color)!important
+}
+
+.percent-bar {
+    background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    background-size: .7rem .7rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    transition: width .6s ease;
+    -webkit-animation: progress-bar-stripes 2s linear infinite;
+    animation: progress-bar-stripes 1s linear infinite;
+    z-index: 10
+}
+
+.good {
+    background-color: #ffc107
+}
+
+.great {
+    background-color: #28a745
+}
+
+.bad {
+    background-color: #dc3545
+}
+
+.prediksi-card {
+    background-color: var(--eight-color);
+    border-bottom: 1px solid var(--second-color);
+    padding: 15px
+}
+
+.prediksi-title {
+    font-size: 1.1rem;
+    text-transform: uppercase
+}
+
+.prediksi-desc {
+    font-size: .9rem
+}
+
+.active-pasaran {
+    border: 1px solid transparent;
+    -webkit-transition: border .1s linear,box-shadow .1s linear;
+    -moz-transition: border .1s linear,box-shadow .1s linear;
+    transition: border .1s linear,box-shadow .1s linear
+}
+
+.active-pasaran.glowing {
+    border-color: #ffc400;
+    -webkit-box-shadow: 0 0 10px #ffc400;
+    -moz-box-shadow: 0 0 10px #ffc400;
+    box-shadow: 0 0 10px #ffc400
+}
+
+.page.active {
+    color: #fff!important;
+    background: var(--third-color)
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: .5s;
+    padding-top: 60px
+}
+
+.sidenav .nav-m {
+    background-image: url(../images/spritesheet.png);
+    background-repeat: no-repeat;
+    position: relative;
+    display: block;
+    font: bold 15px/43px arial,sans-serif;
+    padding: 0 10px 0 40px;
+    color: #fff;
+    height: 40px;
+    width: 186px;
+    z-index: 9;
+    transition: all .1s ease-out;
+    -webkit-transition: all .1s ease-out;
+    text-transform: uppercase;
+    transition: .3s
+}
+
+.home-m {
+    background-position: 8px 10px
+}
+
+.livedraw-m {
+    background-position: 8px -150px
+}
+
+.data-m {
+    background-position: 8px -110px
+}
+
+.alat-m {
+    background-position: 8px -310px
+}
+
+.prediksi-m {
+    background-position: 8px -270px
+}
+
+.promosi-m {
+    background-position: 8px -230px
+}
+
+.buku-mimpi-m {
+    background-position: 8px -70px
+}
+
+.tour-m {
+    background-position: 8px -30px
+}
+
+.jadwal-m {
+    background-position: 8px -190px
+}
+
+.sidenav a:hover {
+    color: #f1f1f1
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    color: #fff;
+    font-size: 36px;
+    margin-left: 50px
+}
+
+.navbar-icons i {
+    font-size: 1.7rem
+}
+
+#table-paito {
+    border-collapse: collapse;
+    background: #fff
+}
+
+#table-paito td {
+    border: 1px solid #d9d9d9;
+    text-align: center;
+    padding: 0;
+    width: 20px
+}
+
+.btn-hapuspaito {
+    width: 70px;
+    border: none;
+    height: 25px
+}
+
+.box-color {
+    width: 55px;
+    height: 25px
+}
+
+.aqua {
+    background-color: aqua
+}
+
+.gold {
+    background-color: gold
+}
+
+.lgreen {
+    background-color: #90ee90
+}
+
+.dpink {
+    background-color: #ff1493
+}
+
+.violet {
+    background-color: violet
+}
+
+.turto {
+    background-color: #40e0d0
+}
+
+.orange {
+    background-color: orange
+}
+
+.tble {
+    background-color: #fff
+}
+
+#color-selector p {
+    clear: both
+}
+
+.table-wrap {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent
+}
+
+.table-paito tr:nth-last-child(5n+1) td {
+    background: #e8e4e7
+}
+
+.addi-paito {
+    background: none repeat scroll 0 0 #fff;
+    color: #d7d1d1;
+    font-weight: 400
+}
+
+.e1,.e2,.e3,.e4,.e5,.e6,.e7,.e8,.e9,.e0 {
+    background-color: #ff4d4d!important;
+    border-radius: 0;
+    color: #fff
+}
+
+.k1,.k2,.k3,.k4,.k5,.k6,.k7,.k8,.k9,.k0 {
+    background-color: green!important;
+    border-radius: 0;
+    color: #fff
+}
+
+.c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c0 {
+    background-color: blue!important;
+    border-radius: 0;
+    color: #fff
+}
+
+.a1,.a2,.a3,.a4,.a5,.a6,.a7,.a8,.a9,.a0 {
+    background-color: orange!important;
+    border-radius: 0;
+    color: #fff
+}
+
+.j1,.j2,.j3,.j4,.j5,.j6,.j7,.j8,.j9,.j0 {
+    background-color: #910303!important;
+    border-radius: 0;
+    color: #fff
+}
+
+.head th {
+    vertical-align: top;
+    border: 1px solid #aaa;
+    font-size: .875rem;
+    background-color: #bbb;
+    border-top: 1px solid #dee2e6
+}
+
+.table-paito {
+    color: #000;
+    background: #fff none repeat scroll 0 0;
+    margin: 10px;
+    margin-left: -5px
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top:15px
+    }
+
+    .sidenav a {
+        font-size: 18px
+    }
+}
+
+.bg-head-turnamen {
+    background: url(../images/bg-turnamen.jpg) top center;
+    background-size: cover;
+    padding: 15px
+}
+
+.close-turnamen {
+    font-size: 3.6rem
+}
+
+.title-turnamen {
+    font-weight: 700;
+    font-size: 2.6rem;
+    padding-left: 7.2rem
+}
+
+.title-leaderboard {
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-align: center
+}
+
+.leaderboard-card {
+    background: #1d1d1d;
+    border-color: #111;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+    text-align: center
+}
+
+.link-syarat {
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-transform: uppercase
+}
+
+.leaderboard-date {
+    color: #3384fd;
+    font-weight: 700
+}
+
+.daftar-pemenang {
+    width: 15rem;
+    text-align: center
+}
+
+.daftar-pemenang h5 {
+    font-weight: 700;
+    margin-top: .3rem;
+    font-size: 1rem
+}
+
+@media only screen and (max-width: 600px) {
+    .title-turnamen {
+        font-size:1.2rem;
+        margin-top: .6rem;
+        padding-left: 0
+    }
+
+    .input-konv {
+        width: 30px!important
+    }
+
+    .bg-head-turnamen {
+        background-position: center center
+    }
+
+    .close-turnamen {
+        font-size: 1.8rem
+    }
+
+    .leaderboard-card {
+        padding: 4px
+    }
+
+    .leaderboard-card h4 {
+        font-size: 1rem
+    }
+
+    .daftar-pemenang h5 {
+        font-size: .9rem
+    }
+}
+
+input.cari {
+    width: 53px;
+    text-align: center;
+    color: red;
+    margin-right: 4px;
+    font-weight: 700;
+    background: #f0f7f2
+}
+
+@media(max-width: 767px) {
+    .paito-num {
+        font-size:12px!important
+    }
+
+    .head th {
+        font-size: 12px!important;
+        background-color: #bbb
+    }
+
+    .addi-paito {
+        width: 2px!important
+    }
+
+    .paito-num {
+        background-color: #fff;
+        font-weight: 700
+    }
+}
+
+.input-konv {
+    width: 50px;
+    height: 30px;
+    border: none;
+    text-align: center;
+    border-radius: 4px
+}
+
+.wa-desc {
+    margin-top: -13px
+}
+
+.form-sgptoto {
+    background: url(../images/bg-toto.png) no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    padding: 10px;
+    font-weight: 700;
+    text-align: center;
+    color: #000
+}
+
+.hasil {
+    font-size: 2rem
+}
+
+.tt-title {
+    font-size: .8rem
+}
+
+.blocklive,.blocklive-prize {
+    padding: 5px;
+    text-align: center
+}
+
+.blocklive-prize {
+    background-color: #000;
+    border: 1px solid #ffba00;
+    color: #ffba00
+}
+
+.blocklive-prize h5 {
+    font-weight: 700;
+    font-size: 1.2rem
+}
+
+.blocklive {
+    background-color: #0b0b0b;
+    border: 1px solid #7e7e7e
+}
+
+.blocklive h5 {
+    font-size: 1.2rem;
+    font-weight: 700
+}
+
+.main-live {
+    background: #2b2928;
+    color: #fff
+}
+
+.tototd {
+    font-size: 1.2rem
+}
+
+.infotxt {
+    color: #fff;
+    text-align: center;
+    font-size: .9rem;
+    font-style: italic
+}
+
+.collapsible {
+    background-color: var(--eight-color);
+    color: var(--second-color);
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    text-align: justify;
+    outline: none;
+    font-size: 5px;
+    max-width: 100%
+}
+
+.activez {
+    animation: active-animate 1s ease 0s 1 normal both
+}
+
+@keyframes active-animate {
+    0% {
+        opacity: 1
+    }
+
+    50% {
+        opacity: .2
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+.promo-block button img:hover {
+    border-bottom: 2px solid var(--seventh-color)
+}
+
+.content {
+    padding: 2 0;
+    display: none;
+    overflow: hidden;
+    background-color: transparent;
+    margin-left: 10px
+}
+
+.promo-block,.promo-header {
+    width: 40rem;
+    max-width: 100%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.promo-block button img {
+    border-bottom: 2px dashed var(--first-color);
+    width: 100%
+}
+
+.w-100 {
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem
+}
+
+.content img {
+    max-width: 100%
+}
+
+@media screen and (max-device-width: 480px) and (orientation:portrait) {
+    .collapsible {
+        width:96%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto
+    }
+
+    .promo-block {
+        width: 100%
+    }
+
+    .promo-header {
+        width: 97%
+    }
+
+    .promo-block button img {
+        width: 100%
+    }
+}
+
+@media screen and (max-device-width: 850px) and (orientation:landscape) {
+    .collapsible,.promo-header {
+        width:98%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto
+    }
+}
